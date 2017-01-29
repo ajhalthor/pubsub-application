@@ -2,7 +2,7 @@
 
 Every "user" has their own list of topics they follow i.e. a list of topics to which they *subscribed*. When one of the *publishers* writes a book/blog, notify the users who 
 subscribed to the topic. Optionally add/remove any number of:
-1. Users(Subscribers)
+1.Users(Subscribers)
 2. Publishers
 3. Topics
 
@@ -15,13 +15,15 @@ The application has 3 dependencies:
 
 Execute the following command to include all dependencies from package.JSON:
 
-```npm install```
+```
+npm install
+```
 
 Now, open index.html
 
 ###Format of Subscribers
 ```
-var subscribers = [
+subscribers = [
 {
     'name':'Ajay',
     'topics':['Cars'],
@@ -51,7 +53,7 @@ var subscribers = [
 
 ###Format of Publishers
 ```
-var publishers =[
+publishers =[
 {
     'name': 'Glor',
     'works':[
