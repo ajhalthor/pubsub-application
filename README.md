@@ -1,10 +1,9 @@
 #Publisher-Subscriber model (implementation)
 
-Every "user" has their own list of topics they follow i.e. a list of topics to which they *subscribed*. When one of the *publishers* writes a book/blog, notify the users who 
-subscribed to the topic. Optionally add/remove any number of:
-1.Users(Subscribers)
-2. Publishers
-3. Topics
+Every "user" has their own list of topics they follow i.e. a list of topics to which they *subscribed*. When one of the *publishers* writes a book/blog, notify the users who subscribed to the topic. Optionally add/remove any number of:
+ 1. Users(Subscribers)
+ 2. Publishers
+ 3. Topics
 
 ##Usage
 
