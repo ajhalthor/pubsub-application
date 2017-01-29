@@ -21,7 +21,7 @@ npm install
 
 Now, open index.html
 
-###Format of Subscribers
+##Format of Subscribers
 ```
 subscribers = [
 {
@@ -51,7 +51,7 @@ subscribers = [
 ];
 ```
 
-###Format of Publishers
+##Format of Publishers
 ```
 publishers =[
 {
