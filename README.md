@@ -19,7 +19,18 @@ Execute the following command to include all dependencies from package.JSON:
 npm install
 ```
 
-Now, open index.html
+Open index.html and start entering the publishers and subscriber details.
+
+![Add Pubblisher & Subscriber Names](gifs/first_part.gif)
+
+Subscribers can now *subscribe* to different topics. 
+
+![Subscribe](gifs/second_part.gif)
+
+Subscribers recieve notifications when Publishers publish content on their subscribed topics
+
+![Received Notifications](gifs/third_part.gif)
+
 
 ##Format of Subscribers
 ```
