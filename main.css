@@ -1,0 +1,28 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+
+.subscriber,
+.publisher{
+	float:left;
+	border:1px solid black;
+	width:300px;
+	padding: 10px;
+}
+
+.textbox-btn{
+	width:500px;
+	margin-top:10px; 
+	margin-bottom:10px; 
+}
+	.textbox-btn input{
+		width:60%;
+		display: inline
+	}
+
+	.textbox-btn button{
+		width:15%;
+	}
