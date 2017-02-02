@@ -9,9 +9,9 @@ Every "user" has their own list of topics they follow i.e. a list of topics to w
 ##Usage
 
 The application has 3 dependencies:
-* **Bootstrap**: CSS framework
-* **jQuery**: JavaScript framework
-* **Mustache**: Template engine to render HTML
+* **Bootstrap**: Front end framework
+* **jQuery**: JavaScript library
+* **Mustache**: Logicless template synatx
 
 Execute the following command to include all dependencies from package.JSON:
 
