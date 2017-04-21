@@ -1,4 +1,4 @@
-#Publisher-Subscriber model (implementation)
+# Publisher-Subscriber model (implementation)
 
 Every "user" has their own list of topics they follow i.e. a list of topics to which they *subscribed*. When one of the *publishers* writes a book/blog, notify the users who subscribed to the topic. Optionally add/remove any number of:
 
@@ -6,7 +6,7 @@ Every "user" has their own list of topics they follow i.e. a list of topics to w
  2. Publishers
  3. Topics
 
-##Usage
+## Usage
 
 The application has 3 dependencies:
 * **Bootstrap**: Front end framework
@@ -32,7 +32,7 @@ Subscribers recieve notifications when Publishers publish content on their subsc
 ![Received Notifications](gifs/third_part.gif)
 
 
-##Format of Subscribers
+## Format of Subscribers
 ```
 subscribers = [
 {
@@ -62,7 +62,7 @@ subscribers = [
 ];
 ```
 
-##Format of Publishers
+## Format of Publishers
 ```
 publishers =[
 {
